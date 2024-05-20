@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "homework1quarto.html",
+    "href": "homework1quarto.html",
+    "title": "Data Science Document 1",
+    "section": "",
+    "text": "What Do you think being a data scientist is about?\nI think being a data scientist is utilizing many different skills to solve a complex problem for a business or researcher. These skills can vary depending on the type of team and data that is being worked with. In general, it involves reading and manipulating/cleaning raw data. This may involve combining several different large data sets which are then summarized. At this point, statistical and analysis methods can be applied to solve whatever problem is at hand.\nWhat differences/similarities do you see between data scientists and statisticians?\nThe biggest difference between data scientists and statisticians is that statisticians focus on models, and bringing data to those models. These data sets are generally much smaller and can be ran with a single computer. Data scientists are more involved with the production system where extremely large data generation occurs. Something they have in common is the use of analysis. Both occupations use mathematical and statistical methods to find patterns/trends and make predictions/decisions.\nHow do you view yourself in relation to these areas?\nBecause data science is involved with machine learning and AI (which I have no experience learning) I feel much more confident with statistics. I am excited to learn more about data science and computer science."
+  },
+  {
+    "objectID": "homework1quarto.html#prompt-answers",
+    "href": "homework1quarto.html#prompt-answers",
+    "title": "Data Science Document 1",
+    "section": "",
+    "text": "What Do you think being a data scientist is about?\nI think being a data scientist is utilizing many different skills to solve a complex problem for a business or researcher. These skills can vary depending on the type of team and data that is being worked with. In general, it involves reading and manipulating/cleaning raw data. This may involve combining several different large data sets which are then summarized. At this point, statistical and analysis methods can be applied to solve whatever problem is at hand.\nWhat differences/similarities do you see between data scientists and statisticians?\nThe biggest difference between data scientists and statisticians is that statisticians focus on models, and bringing data to those models. These data sets are generally much smaller and can be ran with a single computer. Data scientists are more involved with the production system where extremely large data generation occurs. Something they have in common is the use of analysis. Both occupations use mathematical and statistical methods to find patterns/trends and make predictions/decisions.\nHow do you view yourself in relation to these areas?\nBecause data science is involved with machine learning and AI (which I have no experience learning) I feel much more confident with statistics. I am excited to learn more about data science and computer science."
+  },
+  {
+    "objectID": "homework1quarto.html#code-section",
+    "href": "homework1quarto.html#code-section",
+    "title": "Data Science Document 1",
+    "section": "Code Section",
+    "text": "Code Section\nFirst we are assigning y the result of applying the density function to sepal length:\n\ny &lt;- density(iris$Sepal.Length)\n\nNow we will analyze this by finding the class, type and structure of our object ‘y’:\n\nClass\n\n\nclass(y)\n\n[1] \"density\"\n\n\n\nType\n\n\ntypeof(y)\n\n[1] \"list\"\n\n\n\nStructure\n\n\nstr(y)\n\nList of 7\n $ x        : num [1:512] 3.48 3.49 3.5 3.51 3.52 ...\n $ y        : num [1:512] 0.000232 0.000262 0.000296 0.000333 0.000373 ...\n $ bw       : num 0.274\n $ n        : int 150\n $ call     : language density.default(x = iris$Sepal.Length)\n $ data.name: chr \"iris$Sepal.Length\"\n $ has.na   : logi FALSE\n - attr(*, \"class\")= chr \"density\"\n\n\nI will now plot our object y that was created earlier. I am setting echo to false to hide the r code:"
+  }
+]

@@ -1,0 +1,54 @@
+---
+title: "Data Science Document 1"
+format: html
+editor: visual
+---
+
+## Prompt Answers
+
+-   What Do you think being a data scientist is about?
+
+    I think being a data scientist is utilizing many different skills to solve a complex problem for a business or researcher. These skills can vary depending on the type of team and data that is being worked with. In general, it involves reading and manipulating/cleaning raw data. This may involve combining several different large data sets which are then summarized. At this point, statistical and analysis methods can be applied to solve whatever problem is at hand.
+
+-   What differences/similarities do you see between data scientists and statisticians?
+
+    The biggest difference between data scientists and statisticians is that statisticians focus on models, and bringing data to those models. These data sets are generally much smaller and can be ran with a single computer. Data scientists are more involved with the production system where extremely large data generation occurs. Something they have in common is the use of analysis. Both occupations use mathematical and statistical methods to find patterns/trends and make predictions/decisions.
+
+-   How do you view yourself in relation to these areas?
+
+    Because data science is involved with machine learning and AI (which I have no experience learning) I feel much more confident with statistics. I am excited to learn more about data science and computer science.
+
+## Code Section
+
+First we are assigning y the result of applying the density function to sepal length:
+
+```{r}
+y <- density(iris$Sepal.Length)
+```
+
+Now we will analyze this by finding the class, type and structure of our object 'y':
+
+-   Class
+
+```{r}
+class(y)
+```
+
+-   Type
+
+```{r}
+typeof(y)
+```
+
+-   Structure
+
+```{r}
+str(y)
+```
+
+I will now plot our object y that was created earlier. I am setting echo to false to hide the r code:
+
+```{r}
+#| echo: false
+plot(y, main = "Plot Function of Sepal Length")
+```
